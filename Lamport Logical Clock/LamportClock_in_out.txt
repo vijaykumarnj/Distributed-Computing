@@ -1,0 +1,28 @@
+Sample Input and output
+--------------------------------------------------
+Please provide input in this format: L,L,L,S,R-2,S 
+L: Local event
+S: Send event
+R: Receive event. R-2 indicates node 2 as the event sender
+Do you want to enter the events for a node (Y/N):Y
+Enter the events for a node:L,S,L,R-3,S
+Do you want to enter the events for a node (Y/N):Y
+Enter the events for a node:L,R-1,S,L,R-1,L
+Do you want to enter the events for a node (Y/N):Y
+Enter the events for a node:L,R-2,L,S
+Do you want to enter the events for a node (Y/N):N
+Node: 1, Event - LOCAL , clock time - 1
+Node: 1, Event - SEND , clock time - 2
+Node: 2, Event - LOCAL , clock time - 1
+Node: 3, Event - LOCAL , clock time - 1
+Node: 2, Event - RECEIVE , clock time - 3
+Node: 2, Event - SEND , clock time - 4
+Node: 3, Event - RECEIVE , clock time - 5
+Node: 1, Event - LOCAL , clock time - 3
+Node: 2, Event - LOCAL , clock time - 5
+Node: 3, Event - LOCAL , clock time - 6
+Node: 3, Event - SEND , clock time - 7
+Node: 1, Event - RECEIVE , clock time - 8
+Node: 1, Event - SEND , clock time - 9
+Node: 2, Event - RECEIVE , clock time - 10
+Node: 2, Event - LOCAL , clock time - 11
