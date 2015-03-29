@@ -1,0 +1,17 @@
+Perform the following steps for running the assignment using java rmi:
+
+1)Generation of RMI stub and skeletion:
+  Go to bin folder and run the following command to generate the rmi stub and skeletion:
+  
+  C:\LeaderElection\bin>rmic -vcompat remote.Node 
+
+2) Start the rmiregistry but running the following command in a terminal
+
+  >rmiregistry
+  
+3) From another terminal, go to bin folder and run the following command for running the main program
+
+ C:\LeaderElection\bin>java system.DistributedSystem
+ 
+ 
+  
