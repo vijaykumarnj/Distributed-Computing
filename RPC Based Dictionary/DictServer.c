@@ -234,5 +234,3 @@ void search(Dictionary *pInfo, char search_criteria[],char* meaning)
 	}	
 	return;
 }
-
-d
